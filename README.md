@@ -6,6 +6,7 @@ Introduction to C#:
   - What is C#?
   - History and background.
   - Basic syntax.
+  - Working with the console
 
 Variables and Data Types:
   - Declaring variables.
