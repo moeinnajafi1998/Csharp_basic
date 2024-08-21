@@ -67,3 +67,9 @@ if (!(number3 == 15))
 {
     Console.WriteLine("The number3 is not 15");
 }
+
+// Ternary Operator
+// The ternary operator is a shorthand for an if-else statemen
+int number4 = 5;
+string result = (number4 > 0) ? "Positive" : "Negative";
+Console.WriteLine(result);
