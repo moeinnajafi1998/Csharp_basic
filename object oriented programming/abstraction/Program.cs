@@ -1,31 +1,26 @@
-﻿// Encapsulation:
-// Encapsulation is the principle of hiding the internal details of an object and exposing only what is necessary.
-// This is achieved using access modifiers like private, protected, and public.
-// It helps in protecting the internal state of the object from unintended interference and misuse.
-public class BankAccount
+﻿// Abstraction:
+// Abstraction involves creating simple representations of complex systems by focusing on the essential details while hiding the unnecessary complexities.
+// In C#, this is achieved using abstract classes and interfaces.
+// Abstract classes cannot be instantiated and may contain abstract methods that derived classes must implement.
+public abstract class Shape
 {
-    private decimal balance;
+    public abstract double GetArea();
+}
+
+public class Circle : Shape
+{
+    public double Radius { get; set; }
     
-    public void Deposit(decimal amount)
+    public override double GetArea()
     {
-        if (amount > 0)
-        {
-            balance += amount;
-        }
-    }
-    
-    public decimal GetBalance()
-    {
-        return balance;
+        return Math.PI * Radius * Radius;
     }
 }
+
 
 class Program{
-    static void Main(string[] args){
-        BankAccount account = new BankAccount();
-        account.Deposit(100);
-        Console.WriteLine(account.GetBalance()); // Output: 100
+    static void Main(string[] Main){
+    Shape myCircle = new Circle { Radius = 5 };
+    Console.WriteLine(myCircle.GetArea()); // Output: 78.54
     }
 }
-
-
