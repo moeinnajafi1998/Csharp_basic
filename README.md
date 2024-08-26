@@ -31,7 +31,7 @@ Arrays and Collections:
 
 Object-Oriented Programming Basics:
   - Classes and objects.
-  - Constructors.
+  - abstraction, encapsulation, inheritance, polymorphism.
   - Properties and methods.
 
 Exception Handling:
