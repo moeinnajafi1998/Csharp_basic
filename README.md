@@ -13,6 +13,7 @@ Variables and Data Types:
   - Numeric data types (int, float, double).
   - Strings and characters.
   - Boolean data type.
+  - Casting and type conversions.
 
 Control Structures:
   - If statements.
