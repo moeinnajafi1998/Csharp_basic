@@ -1,4 +1,5 @@
-﻿// Object-Oriented Programming (OOP) in C# is a fundamental concept that allows developers to create modular, reusable, and maintainable code by modeling real-world entities as objects.
+﻿// Object-Oriented Programming (OOP) in C# is a fundamental concept that allows developers to create modular, 
+// reusable, and maintainable code by modeling real-world entities as objects.
 // C# is a fully object-oriented language, meaning that it heavily relies on OOP principles.
 
 // Classes and Objects:
@@ -6,6 +7,8 @@
 // Class: A class is a blueprint for creating objects.
 // It defines the properties (fields) and behaviors (methods) that the objects created from the class will have.
 // Object: An object is an instance of a class.
+// Property: is an Object's attributes.
+// Method: is an Object's behavior.
 // When you create an object, you are creating something that holds the data defined by the class and can perform the actions defined by the class.
 public class Car
 {
